@@ -1,4 +1,5 @@
 :root {
+
   --primary-blue: rgba(33, 150, 243, 1);
   --bg-black: rgba(47, 48, 58, 1);
   --bg-sect-white: rgba(245, 244, 250, 1);
@@ -22,6 +23,7 @@
   text-transform: uppercase;
   color: var(--primary-white);
 }
+
 .btn {
   background-color: var(--primary-blue);
   color: var(--primary-white);
@@ -31,6 +33,7 @@
   text-align: center;
   letter-spacing: 0.06em;
 }
+
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -38,6 +41,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .pretitle {
   font-weight: bold;
   font-size: 14px;
@@ -45,6 +49,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.team {
+  background-color: var(--bg-sect-white);
+}
+
 .team-pretitle {
   font-weight: 500;
   font-size: 16px;
@@ -52,6 +61,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .advantages-text {
   font-weight: normal;
   font-size: 14px;
@@ -59,6 +69,7 @@
   letter-spacing: 0.03em;
   color: var(--main-text-grey);
 }
+
 .position {
   font-weight: normal;
   font-size: 16px;
